@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: left;
+  color: white;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right: 300px;
+}
+
+.top {
+  color: white;
+}
+
+.top img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 700px;
+}
+
+.top pokemon img {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 100px;
+}
+
+.pokemon img {
+  width: 400px;
+  height: 400px;
+
+}
+
+.gold img {
+  width: 300px;
+  height: 500px;
+  margin-left: 900px;
+
+}
