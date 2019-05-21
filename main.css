@@ -1,6 +1,5 @@
 body {
   background-color: black;
-
 }
 
 ul {
@@ -14,43 +13,45 @@ ul {
 li {
   float: left;
   color: white;
+  text-align: center;
 }
 
 li a {
-  display: block;
-  text-align: center;
   padding: 14px 16px;
+  display: block;
   text-decoration: none;
   margin-right: 300px;
 }
 
-.top {
-  color: white;
-}
-
-.top img {
+.pokedex {
   background-size: cover;
   background-repeat: no-repeat;
-  position: absolute;
   width: 100%;
-  height: 700px;
+  height: 100%;
+  z-index: -1;
 }
 
-.top pokemon img {
+.pokemon {
   display: grid;
-  grid-template-columns: 50px 50px 50px;
-  grid-template-rows: 100px;
+  grid-template: 255px 50px / 333px 297px 250px;
+  margin-top: -516px;
 }
 
 .pokemon img {
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
+}
 
+.pokemon h1 {
+  padding-left: 60px;
+  font-family: sans-serif;
 }
 
 .gold img {
   width: 300px;
-  height: 500px;
+  height: 400px;
   margin-left: 900px;
+  margin-top: -370px;
+  z-index: -1;
 
 }
