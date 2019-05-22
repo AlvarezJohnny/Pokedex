@@ -40,7 +40,15 @@ li a {
 .pokemon img {
   width: 250px;
   height: 250px;
+  transition: .5s ease;
+  background-color: #a52a2a;
+  opacity: .85;
 }
+
+.pokemon:hover img {
+  opacity: 1;
+}
+
 
 .pokemon h1 {
   padding-left: 60px;
