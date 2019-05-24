@@ -43,8 +43,6 @@ class Pokemon {
 
 }
 
-class Trainer {
-  constructor() {
-
-  }
+document.getElementById("Typloshion").onclick = loadDoc(157) {
+  console.log("It works")
 }
